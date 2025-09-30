@@ -2,5 +2,14 @@ Nama: Arga Aryanta Indrafata
 NIM: H1D023096
 Shift: E -> C
 
+#Tugas 1 - Pertemuan 2
 Screenshot Hasil:
-<img width="717" height="1030" alt="489147878-0eef3201-9bf7-48fc-889d-c0a21649fc16" src="https://github.com/user-attachments/assets/0044c978-f92b-434c-b0eb-f726ee6c7afe" />
+<img src="assets/tugas1.png" alt="Tugas 1" width="400"/>
+
+#Tugas 2 - Pertemuan 3
+Screenshot Hasil:
+<img src="assets/tugas2.gif" alt="Tugas 2" width="400"/>
+
+#Tugas 3 - Pertemuan 4
+Screenshot Hasil:
+<img src="assets/tugas3mp4.mp4" alt="Tugas 3" width="400"/>
