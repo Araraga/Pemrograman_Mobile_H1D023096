@@ -1,13 +1,13 @@
 package com.unsoed.informatikamobile.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.unsoed.informatikamobile.data.model.BookDoc
 import com.unsoed.informatikamobile.data.network.RetrofitInstance
 import kotlinx.coroutines.launch
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
+import com.unsoed.informatikamobile.data.model.BookDoc
 
 class MainViewModel : ViewModel(){
     private val _books = MutableLiveData<List<BookDoc>>()

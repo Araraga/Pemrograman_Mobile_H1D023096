@@ -42,6 +42,11 @@ class Halaman2Activity : AppCompatActivity() {
             it.imgIcon.setImageResource(R.drawable.ic_himpunan)
             it.tvLayout.setText(R.string.ig_himpunan)
         }
+        binding.layoutBuku.let {
+            it.imgIcon.setImageResource(R.drawable.ic_book)
+            it.tvLayout.setText(R.string.book)
+        }
+
     }
 
     private fun initListener() {
@@ -62,6 +67,10 @@ class Halaman2Activity : AppCompatActivity() {
                 data = "mailto:${getString(R.string.email)}".toUri()
             }
             startActivity(intent)
+        }
+
+        binding.layoutBuku.root.setOnClickListener  {
+            startActivity(Intent(this, DaftarBukuActivity::class.java))
         }
 
         binding.btnBack.setOnClickListener { finish() }
